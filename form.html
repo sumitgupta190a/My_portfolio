@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <a href="/">
+                        <li>Home</a>
+                    </li>
+                    <a href="#">
+                        <li>About me</a>
+                    </li>
+                    <a href="#">
+                        <li>Services</a>
+                    </li>
+                    <a href="#">
+                        <li>My CV</a>
+                    </li>
+                    <a href="/form.html">
+                        <li>Contact Me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="images">
+                <img src="ham.png" alt="" class="ham" width="35px">
+                <img src="cross1.png" alt="" class="cross" width="30px">
+            </div>
+            <div class="contactform">
+                <h1>Contact me for work/enquiries</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="Email">Name</label>
+                        <input type="name" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="Email">Email address</label>
+                        <input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Enter email">
+                        <div id="Emailhelp" class="form-text text-muted">We'll never share your email with anyone else.</div>
+
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Phone No</label>
+                            <input type="phone" class="form-control" id="phone" placeholder="enter the number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">enquiry</label>
+                            <input type="Enquiry" class="form-control" id="phone">
+                        </div>
+                        <div id="form-check">
+                            <input type="checkbox" class="form-check-input" id="iclient">
+                            <label class="form-check-label" for="exampleCheck1">I want you to work on a project with me</label>
+                        </div>
+                        <button type="submit" id="btn1" class="btn">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>

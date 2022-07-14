@@ -1,0 +1,197 @@
+    @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .container {
+        display: flex;
+    }
+    
+    .sidebar {
+        height: 150vh;
+        position: absolute;
+    }
+    
+    .sidebargo {
+        transform: translate(-356px, 0px);
+        position: absolute;
+    }
+    
+    .sidebar nav {
+        background-color: grey;
+        color: white;
+        width: 9vw;
+        padding: 50px;
+        height: 150vh;
+    }
+    
+    .sidebar nav li {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 25px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .sidebar nav li a {
+        text-decoration: none;
+        color: rgb(10, 9, 9)
+    }
+    
+    .main {
+        /* background-color: aqua; */
+        display: flex;
+        /* padding: 20px; */
+        width: 100vw;
+        padding: 29px;
+    }
+    
+    .info {
+        /* background-color: blue; */
+        height: 60vh;
+        width: 120vw;
+        margin: 140px auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        /* font-family: Georgia, 'Times New Roman', Times, serif; */
+        font-family: 'Gideon Roman', cursive;
+        padding: 30px 80px;
+        font-size: 15px;
+    }
+    
+    .intro {
+        font-size: 3em;
+    }
+    
+    .name {
+        font-size: 2.5em;
+        font-weight: bolder;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .about {
+        font-size: 2.2em;
+    }
+    
+    .picture img {
+        /* width: 166px; */
+        /* height: 27em; */
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+    
+    .BUTTON button {
+        margin-top: 2em;
+        padding: 6px 11px;
+        font-size: 1.5em;
+        font-weight: bolder;
+        border-radius: 29px;
+        background-color: rosybrown;
+        color: black;
+        cursor: pointer;
+        margin: 19px 10px;
+    }
+    
+    .BUTTON button:hover {
+        background-color: black;
+        color: rosybrown;
+    }
+    
+    .contactform {
+        padding: 23px 100px 76px;
+    }
+    
+    .contactform h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 43px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .contactform div {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contactform div input {
+        border-radius: 8px;
+        width: 25vw;
+        padding: 10px;
+        margin: 13px 0 0 0;
+    }
+    
+    #Emailhelp {
+        font-size: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: brown;
+        margin: 0 5px;
+    }
+    
+    #form-check {
+        flex-direction: row;
+    }
+    
+    #form-check input {
+        width: 30px;
+        margin: 5px 0;
+    }
+    
+    #btn1 {
+        margin-top: 25px 0;
+        padding: 17px 19px;
+        font-size: 17px;
+        font-weight: bolder;
+        border-radius: 30px;
+        background-color: rosybrown;
+        color: black;
+        cursor: pointer;
+        margin: 26px 140px;
+    }
+    
+    .btn button:hover {
+        background-color: black;
+        color: rosybrown;
+    }
+    
+    .images {
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    
+    .cross {
+        /* /* margin-left: 180px; * */
+        margin-left: 132px;
+        position: absolute;
+    }
+    
+    @media (max-width: 1200px) {
+        /* .sidebar {
+            transform: translate(-356px, 0px);
+            position: absolute;
+        } */
+        .picture {
+            display: none;
+        }
+        .content {
+            font-size: 15px;
+        }
+        .BUTTON {
+            FONT-SIZE: 10px;
+        }
+        .images {
+            position: absolute;
+        }
+    }
+    /* .info {
+    flex-wrap: wrap;
+} */
